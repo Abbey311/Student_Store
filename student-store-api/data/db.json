@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cinnamon Toast Crunch",
+      "category": "food",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91JQr4xKv6L._SL1500_.jpg",
+      "source": "https://www.snackhistory.com/cinnamon-toast-crunch-cereal#:~:text=Cinnamon%20Toast%20Crunch%20is%20made,like%20Rice%20Krispies%20cereal%20makes.",
+      "description": "Made from wheat and rice, this cereal is this covered with cinnamon and sugar to make the taste complete.",
+      "price": 1.5
+    },
+    {
+      "id": 2,
+      "name": "Oatmeal",
+      "category": "food",
+      "image": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/bowl_of_oatmeal_other/1800x1200_getty_rf_bowl_of_oatmeal.jpg",
+      "source": "https://www.webmd.com/diet/oatmeal-benefits#1",
+      "description": "Breakfast food made from oats and liquid like water or milk",
+      "price": 0.99
+    },
+    {
+      "id": 3,
+      "name": "Cinnamon Rolls",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+      "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+      "description": "Basically just cake for breakfast, but who's complaining?",
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Coconut Water",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/ONE_Pure_Coconut_Water.jpeg/900px-ONE_Pure_Coconut_Water.jpeg",
+      "source": "https://en.wikipedia.org/wiki/File:ONE_Pure_Coconut_Water.jpeg",
+      "description": "Somehow incredibly hydrating, while also not really being water.",
+      "price": 3.25
+    },
+    {
+      "id": 5,
+      "name": "Fruit Medley",
+      "category": "food",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+      "description": "More fruit than you know what to do with!",
+      "price": 7.5
+    },
+    {
+      "id": 6,
+      "name": "Bar Code Shirts",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Barcode_wikipedia_shirt.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:Barcode_wikipedia_shirt.svg",
+      "description": "So you can scan yourself in the checkout aisle.",
+      "price": 19.99
+    },
+    {
+      "id": 7,
+      "name": "Striped Socks",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bulk_tube_socks.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Bulk_tube_socks.png",
+      "description": "Because the dryer ate most of your socks and it never hurts to have another clean pair.",
+      "price": 4.99
+    },
+    {
+      "id": 8,
+      "name": "Knitted Beanie",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blue_knit-cap_beanie_by_RobertLender.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_knit-cap_beanie_by_RobertLender.jpeg",
+      "description": "Keeps your head absurdly warm while the rest of your body freezes.",
+      "price": 19.99
+    },
+    {
+      "id": 9,
+      "name": "Pullover Sweater",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jumper_altered_PsCSJPG10.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Jumper_altered_PsCSJPG10.jpg",
+      "description": "At $4.99, can you really afford NOT to buy this?",
+      "price": 4.99
+    },
+    {
+      "id": 10,
+      "name": "Alpaca Wool Scarf",
+      "category": "clothing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Alpaca_wool_scarf.JPG/800px-Alpaca_wool_scarf.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Alpaca_wool_scarf.JPG",
+      "description": "Legends say that the Alpaca knitted this scarf from its own fur.",
+      "price": 34.99
+    }
+  ],
+  "purchases": []
+}
