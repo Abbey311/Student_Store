@@ -1,5 +1,6 @@
 const express = require("express")
 const Store = require("../models/store")
+const { NotFoundError } = require("../utils/errors")
 const router = express.Router()
 
 router.get("/", async (req, res, next) => {
@@ -11,25 +12,20 @@ router.get("/", async (req, res, next) => {
   }
 })
 
-router.get("/:productId", async (req, res, next) => {
+
+router.get("/:id", async (req, res, next) => {
   try {
-    const productId = req.params.productId
-    const product = await Store.fetchProductById(productId)
+    const productId = req.params.id
+    const product = await Store.fetchProductsById(productId)
+    if (!product) {
+      throw new NotFoundError("No Product Found")
+    }
     res.status(200).json({ product })
-  } catch (err) {
-    next(err)
-  }
+} catch(err){
+  next(err)
+}
 })
 
-router.post("/", async (req, res, next) => {
-  try {
-    const cart = req.body.cart
-    const userInfo = req.body.userInfo
-    const purchase = await Store.purchaseProducts(cart, userInfo)
-    res.status(200).json({ purchase, cart })
-  } catch (err) {
-    next(err)
-  }
-})
+
 
 module.exports = router

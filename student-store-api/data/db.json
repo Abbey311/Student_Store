@@ -6,8 +6,8 @@
       "category": "food",
       "image": "https://images-na.ssl-images-amazon.com/images/I/91JQr4xKv6L._SL1500_.jpg",
       "source": "https://www.snackhistory.com/cinnamon-toast-crunch-cereal#:~:text=Cinnamon%20Toast%20Crunch%20is%20made,like%20Rice%20Krispies%20cereal%20makes.",
-      "description": "Made from wheat and rice, this cereal is this covered with cinnamon and sugar to make the taste complete.",
-      "price": 1.5
+      "description": "Made from wheat and rice, this cereal is covered with cinnamon and sugar to make the taste complete.",
+      "price": 1.99
     },
     {
       "id": 2,
@@ -43,7 +43,7 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Fruits.png",
       "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
       "description": "More fruit than you know what to do with!",
-      "price": 7.5
+      "price": 7.99
     },
     {
       "id": 6,

@@ -1,0 +1,29 @@
+.Navbar {
+    width: 100%;
+    background: teal;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    position: absolute;
+
+  }
+  
+  .Navbar .content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Navbar .content .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-left: auto;
+    flex: 1;
+    max-width: 650px;
+  }
