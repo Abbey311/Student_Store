@@ -1,19 +1,17 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Week 2 Assignment: Student Store
 
-Submitted by: **NAME**
+Submitted by: **Abbey Yared**
 
-Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 
 ### Application Features
 
 #### CORE FEATURES
 
-- [ ] The API should contain an endpoint that serves an array of all products in the store
-- [ ] A Store model should handle all data management logic for the API and be the interface for read/write operations to the JSON file.
-- [ ] The frontend should include a landing page that displays the products available for purchase.
-- [ ] Each product should have an individual page that shows the details of the product and allows the user to add that product to their shopping cart.
+- [x] The API should contain an endpoint that serves an array of all products in the store
+- [x] A Store model should handle all data management logic for the API and be the interface for read/write operations to the JSON file.
+- [x] The frontend should include a landing page that displays the products available for purchase.
+- [ ] Each product should have an individual page that shows the details of the product
 
 #### STRETCH FEATURES
 
@@ -36,20 +34,17 @@ Deployed Application (optional): [Student Store Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+Yes, the topics discussed in labs helped prepare me as I became more familiar with javascript, CSS, and HTML. The banking lab was very useful as it helped me learn how to connect both the frontend and backend in order to make a functioning website. I don't think I felt unprepared, but rather ran out of time for certain features. I believe if I had more time, I would have been able to complete all features.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time I would have made my page look more aesthetically pleasing, and would have implemented all of the stretch features. I would have loved to include a shopping cart feature, as well as the sidebar component. I also would have liked to deploy to heroku and to have made the checkout form, because it would allow users to actually use my website.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+My project demo went well, and I displayed all of the features I had at the time. However, I wish I was better prepared because there were still components that were unfinished during the time of my presentation. I noticed that my peers made their projects unique and added their own components to make their webpage original, which is something I will definitely want to do in the future.
 
-### Open-source libraries used
-
-- Add any links to open-source libraries used in your project.
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+I want to give a shoutout to Diego and Taylor. Diego agreed to hop on a zoom call with me on friday night so we could help each other debug our code as we were facing similar problems. Taylor decided to help us after hours, which I am very grateful for, and is something I believe deserves a huge shoutout!
