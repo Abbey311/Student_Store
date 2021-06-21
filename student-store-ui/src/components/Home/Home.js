@@ -12,8 +12,8 @@ export default function Home({products = []}){
             {/* <Hero bgImage={heroBgImage} /> */}
 
             <div className="feed">
-                {products.map(products => (
-                    <ProductPreview products={products} key={products.id} />
+                {products.map((product) => ( 
+                    <ProductPreview products={product} key={product.id} />
                 ))}
             </div>
             </div>

@@ -4,52 +4,52 @@ import Home from "../Home/Home"
 import './App.css';
 import Navbar from "../Navbar/Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import About from "../About/About"
+// import About from "../About/About"
 import ProductDescription from "../ProductDescription/ProductDescription"
 
 function App() {
   const [products, setProducts] = useState([])
-  const [isFetching, setIsFetching] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState(null)
+
 
   useEffect(() => {
     const fetchProducts = async () => {
-      setIsFetching(true)
+      setIsLoading(true)
       try {
-        const res = await axios.get("http://localhost:3000/store")
-        console.log(res.data.products);
-        if (res?.data?.products) {
-          setProducts(res.data.products)
-        } else {
-          setError("Error fetching products.")
+        const res = await axios.get("http://localhost:3001/")
+        const products = res?.data?.products;
+        if (products) {
+          setProducts(products)
         }
       } catch (err) {
-        console.log(err)
-        const message = err?.response?.data?.error?.message
-        setError(message ?? String(err))
-      } finally {
-        setIsFetching(false)
+        console.log({err})
+        setError(err)
       }
+      setIsLoading(false)
     }
 
     fetchProducts()
-
   },[])
 
   return (
     <div className="App">
       <BrowserRouter>
       <Navbar />
+
       <Routes>
-        <Route path="/" element={<Home products={products}/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/store/:id" element={<ProductDescription/>} />
+        <Route path="/" element={<Home 
+        products={products}
+        isLoading={isLoading} 
+        error={error}
+        />}/>
+        {/* <Route path="/about" element={<About/>}/> */}
+        <Route path="/:id" element={<ProductDescription/>} />
+
       </Routes>
-      isFetching={isFetching}
-      error={error}
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App;

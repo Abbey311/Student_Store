@@ -6,7 +6,8 @@
     flex-direction: row;
     align-items:center;
     position: absolute;
-
+    height: 100px;
+    top: 0;
   }
   
   .Navbar .content {
