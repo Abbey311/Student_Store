@@ -59,7 +59,7 @@ export default function ProductDescription() {
             </div>
 
             <div className="price">
-            <>{products.price}</>
+            <>{"$" + products.price}</>
             </div>
         </div>
                 </>
